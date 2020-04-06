@@ -1,0 +1,19 @@
+#MAC ADDRESS LOOKUP
+
+FROM python:3
+
+ENV MAC ADDRESS LOOKUP
+
+FROM python:3
+
+MAINTAINER SURYA
+
+ENV mac 44:38:39:ff:ef:57
+
+WORKDIR /root/python
+
+COPY AddressLookup.py /root/python
+
+COPY key.csv /root/python
+
+RUN pip install requests
