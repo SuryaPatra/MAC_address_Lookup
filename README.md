@@ -1,5 +1,5 @@
 # MAC_address_Lookup
-# I have pushed the code under this location along with Docket file
+# I have pushed the code under this location along with Docker file
 # First clone the repo to your local machine
 # Then chnage the sorce location of files as per your system in Docker file
 # Then build image from that docker file
